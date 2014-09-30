@@ -15,7 +15,6 @@ class SwitchType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-
         parent::buildForm($builder, $options);
 
         if (!$options['expanded']) {
